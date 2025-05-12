@@ -6,24 +6,38 @@ sidebar_position: 2
 
 # System at a glance
 
-Below is the 10 000‑foot view of how **AwesomeProject** fits together.
+Below is the 10 000‑foot view of how the Avery's Helpful Hair Kits Website project fits together.
 
 | Layer            | Main tech         | Responsibility                    |
 | ---------------- | ----------------- | --------------------------------- |
-| UI               | React 18 + MDX    | Renders docs & pages              |
-| Static generator | Docusaurus 2      | Converts MD/MDX to static HTML    |
-| Styling          | Tailwind CSS      | Utility‑first styling & dark mode |
-| Search           | Algolia DocSearch | Client‑side full‑text search      |
-| Hosting          | Netlify / Vercel  | CDN‑backed static hosting         |
+| UI               | React 19          | Renders interactive pages and UI  |
+| Routing          | React Router v7+  | Handles routes and redirects      |
+| Stage Management | React Context API | Manages user sessions and more    |
+| Styling          | CSS               | Utility‑first styling & dark mode |
+| Backend          | Express + Supabase| Handles auth, slots, etc.         |
+| Database         | Supabase(Postgres)| Stores users, slots, and requests |
+| Authentification | Supabase Auth     | Email/password and OAuth login    |
+| Hosting          | Vercel            | Deploys the site                  |
+| Deployment       | GitHub + Vercel   | Automatic deployment on push      |
+
 
 ## Key directories
 
 ```
-docs/                → Markdown documentation
-src/                 → React pages & components
-static/              → Images, favicons, robots.txt…
-docusaurus.config.js → Global site config
-sidebars.js          → Sidebar structure
+src/                 → Main application source code
+    assets/              → Static assets (images, icons, etc.)
+    common/              → Shared logic used across the website
+        components/            → Reusable UI components (buttons, nav, etc.)
+        contexts/              → Global state (user, calendar, etc.)
+        hooks/              → Custom React hooks
+        layouts/              → Shared layout wrappers or templates
+        utils/              → Helper functions and utility logic
+    pages/              → Route-based pages (auth, admin, volunteer views)
+static/              → Publicly served static files (favicon, robots.txt)
+App.css              → Global styles for the website
+App.jsx              → Main app component with router and providers
+index.css            → Base CSS reset and root style definitions
+index.jsx            → React entry point
 ```
 
 ## Decision log (abridged)
