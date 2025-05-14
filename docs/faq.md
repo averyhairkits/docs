@@ -1,7 +1,7 @@
 ---
 id: faq
 title: Frequently Asked Questions
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Frequently Asked Questions

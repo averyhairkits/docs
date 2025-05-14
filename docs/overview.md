@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Documentation Overview
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # What is **Avery’s Helpful Hair Kits Scheduler**?
