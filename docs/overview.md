@@ -4,31 +4,46 @@ title: Documentation Overview
 sidebar_position: 2
 ---
 
-# What is **AwesomeProject**?
+# What is the Avery's Helpful Hair Kits Scheduler?
 
-**AwesomeProject** is a lightweight starter kit for building blazing‑fast, content‑driven sites with **React + Docusaurus 2**.
-It ships with sensible defaults so you can focus on content—not configuration.
+The **Avery’s Helpful Hair Kits Scheduler** is a tool designed to streamline volunteer coordination. It allows volunteers to sign up and input their availability for future opportunities while giving the organizer an organized way to view and manage volunteer schedules.
 
 ## Key features
 
 | Feature             | Why it matters                                |
 | ------------------- | --------------------------------------------- |
-| **Instant MDX**     | Write pages in Markdown + JSX for full power. |
-| **Dark‑mode ready** | Automatic light / dark theme toggle.          |
-| **Algolia search**  | Zero‑config DocSearch integration.            |
-| **Versioned docs**  | Keep multiple doc versions live side by side. |
+| **Drag-and-Drop Scheduling**      | Volunteers and organizers can click and drag to select and confirm multiple time slots for volunteer events. |
+| **Calendar Interface**            | Volunteers select available time slots. Organizers manage and view availability with color-coded time blocks.                    
+* White: Available time slot.
+
+* Gray: Full time slot (6 volunteers).
+
+* Light Purple: Confirmed session.
+
+* Dark Purple: Maximum capacity (6 volunteers) and confirmed.         |  
+
 
 ## Tech stack
 
-- **React 18** &mdash; UI layer
-- **MDX 2** &mdash; Markdown + React components
-- **TypeScript** (optional but recommended)
-- **Tailwind CSS** (pre‑wired) for rapid styling
+**Frontend**
+- **React** for UI components
+- **React Router v7** for navigation
+- styled-components for styling
+- **Supabase** for authentication
+
+**Backend**
+- **Node.js** and **Express** for the server
+- **PostgreSQL** (via Supabase) for database
+- **ESLint** and **Prettier** for code formatting
+
+**Development Tools**
+- **Git** for version control
+- **VS Code** as the recommended editor
+- ESLint + Prettier for consistent code formatting
 
 ## Folder anatomy
 
-awesome-project/
+Avery's Helpful Hair Kits/
 ├─ docs/ → Documentation (this folder)
-├─ src/pages/ → Static pages (landing, blog, etc.)
-├─ docusaurus.config.js
-└─ sidebars.js
+├─ frontend/ 
+├─ backend/ 
