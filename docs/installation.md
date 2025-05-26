@@ -4,7 +4,7 @@ title: Installation Guide
 sidebar_position: 3
 ---
 
-# Installation
+<!-- # Installation
 
 ## Prerequisites
 
@@ -38,4 +38,4 @@ npm run start
 
 Open http://localhost:3000.
 You should see the default AwesomeProject homepage and these docs in the sidebar.
-```
+``` -->
