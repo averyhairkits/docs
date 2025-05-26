@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Welcome to the Handoff Docs 👋
 
-These pages are a **quick‑start guide for new maintainers** taking over _AwesomeProject_.
+These pages are a **quick‑start guide for new maintainers** taking over Avery's Helpful Hair Kits.
 They capture the why, how, and what‑next so knowledge never walks out the door.
 
 ## Who should read this?
