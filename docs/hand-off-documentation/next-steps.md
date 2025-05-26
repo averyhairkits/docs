@@ -8,4 +8,4 @@ sidebar_position: 3
 
 - Enable Google sign-in
 - Enable automated email notifications for admins and volunteers when events are created and cancelled
-- 
+- Implement Forgot Password
