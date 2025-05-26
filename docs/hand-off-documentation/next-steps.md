@@ -6,6 +6,6 @@ sidebar_position: 3
 
 # What’s next?
 
-- Review **open issues** tagged `good‑first‑issue`.
-- Read the **Credits** page to know who’s who.
-- Check **ACKNOWLEDGEMENTS** for external resources we rely on.
+- Enable Google sign-in
+- Enable automated email notifications for admins and volunteers when events are created and cancelled
+- 
