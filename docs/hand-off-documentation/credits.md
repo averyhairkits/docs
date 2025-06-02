@@ -9,7 +9,7 @@ sidebar_position: 4
 | Role                | Name / Handle        | Contact                                    |
 | ------------------- | -------------------- | ------------------------------------------ |
 | Project Manager     | Grace Yang           | graceyang2027@u.northwestern.edu           |
-| Backend Engineer    | Lizbeth Yumbla       | lizbethyumbla2025@u.northwestern.edu       |
+| Full-stack Engineer | Lizbeth Yumbla       | lizbethyumbla2025@u.northwestern.edu       |
 | Backend Engineer    | Kaiwen Hu            | kaiwenhu2027@u.northwestern.edu            |
 | Full-stack Engineer | Stefania Vassiliadou | stefaniavasileiadou2027@u.northwestern.edu |
 | Frontend Engineer   | Jazlyn Ho            | jazlynho2028@u.northwestern.edu            |
