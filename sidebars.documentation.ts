@@ -6,21 +6,21 @@ const DocumentationSidebar: SidebarsConfig = {
       type: "category",
       label: "Project Documentation",
       items: [
-        {
-          type: "doc",
-          id: "intro",
-          label: "Documentation",
-        },
+        // {
+        //   type: "doc",
+        //   id: "intro",
+        //   label: "Documentation",
+        // },
         {
           type: "doc",
           id: "overview",
           label: "Overview",
         },
-        {
-          type: "doc",
-          id: "installation",
-          label: "Installation",
-        },
+        // {
+        //   type: "doc",
+        //   id: "installation",
+        //   label: "Installation",
+        // },
         {
           type: "doc",
           id: "usage",

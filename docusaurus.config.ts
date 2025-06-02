@@ -41,8 +41,8 @@ const config: Config = {
           routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -65,7 +65,7 @@ const config: Config = {
       items: [
         {
           type: "doc",
-          docId: "intro",
+          docId: "overview",
           position: "left",
           label: "Documentation",
           docsPluginId: "docs",

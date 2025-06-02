@@ -1,15 +1,24 @@
 ---
 id: intro
 title: Documentation Introduction
-sidebar_position: 1
+# sidebar_position: 1
 slug: /
 ---
+
+## Getting Started
+
+Please click on the left sidebar and click on **Documentation** to read:
+
+- Project Documentation: Understand our web app as a potential user
+
+- Handoff Documentation: Understand our web app as a developer
 
 <!-- # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
+
 
 Get started by **creating a new site**.
 
